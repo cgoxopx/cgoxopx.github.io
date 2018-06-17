@@ -1,5 +1,5 @@
 # cgoxopx的技术中心
-[YRSSF云教学系统](YRSSF)  
+[睿易派错题本恢复照片方法](ry-tool/renote.md)  
 [睿易派死机工具](ry-tool/dos)  
 [gitstar](http://gitstar.cn)  
 [sinriv文字游戏](http://www.sinriv.com)  
