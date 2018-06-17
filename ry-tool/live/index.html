@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ruiyi live</title>
+<script>
+  window.onerror=function(a,b,c,d,e,f){
+    alert(a+b+c+d+e+f);
+  };
+  function inp(){
+    var url=escape(document.getElementByName("url").value);
+    var code="INTINTENT=ENT=#Intent;";
+    code+="action=org.videolan.vlc.gui.video.PLAY_FROM_VIDEOGRID;";
+    code+="launchFlags=0x10000000;";
+    code+="component=com.netspace.myipad/com.netspace.library.activity.VideoPlayerActivity2;"
+    code+="S.itemLocation="+url+";l.position=0;"
+    code+="S.itemTitle=live;end";
+    //alert(code);
+    document.getElemenetById("c").innerHTML=code;
+  }
+</script>
+</head>
+<body>
+  <h1>睿易派接入外部直播平台方法</h1>
+  使用本工具生成代码，然后发送至在线答疑<br>
+  请输入url，支持m3u8、rstp，以及普通的视频<br>
+  <input type="text" name="url">
+  <a href="javascript:inp();">确定</a><br>
+  <div id="c"></div><br>
+  by cgoxopx
+</body>
+</html>
