@@ -1,6 +1,6 @@
-# cgoxopx的技术博客
+# cgoxopx的技术中心
 [YRSSF云教学系统](YRSSF)  
 [睿易派死机工具](ry-tool)  
 [gitstar](http://gitstar.cn)  
-[losoloso](http://losoloso.xszz.gq)  
-[lexuewang](http://pzhqz.lexuewang.cn:8008)
+[sinriv文字游戏](http://www.sinriv.com)  
+[睿易派接入外部直播平台方法](ry-tool/live)
